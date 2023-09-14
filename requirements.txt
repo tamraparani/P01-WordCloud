@@ -1,1 +1,19 @@
 streamlit
+# packaging
+pip>=9
+wordcloud
+
+
+# data science
+numpy
+pandas
+
+# streamlit
+streamlit
+pandas
+requests
+pillow
+datetime
+streamlit-option-menu
+
+matplotlib
