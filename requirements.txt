@@ -3,6 +3,7 @@ streamlit
 pip>=9
 wordcloud
 nltk
+nltk.download('stopwords')
 
 
 # data science

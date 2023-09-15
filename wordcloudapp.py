@@ -14,7 +14,7 @@ text = st.text_area('Write your article')
 
 # Read the whole text.
 #text = open(path.join(d, 'article.txt')).read()
-stopwords = stopwords.words('english')
+#stopwords = nltk.download('stopwords')
 
 
 # Display the generated image:
@@ -26,5 +26,5 @@ plt.rcParams['font.family'] = 'sans-serif'
 plt.rcParams['font.sans-serif'] = 'Arial'
 # Define a TrueType font file (you can change this to your preferred font)
 font_path = path.join(d, 'Roboto-Light.ttf')
-wordcloud = WordCloud(font_path=font_path, stopwords=stopwords).generate(text)
+wordcloud = WordCloud(font_path=font_path).generate(text)
 st.image(wordcloud.to_array(), use_column_width=True)
