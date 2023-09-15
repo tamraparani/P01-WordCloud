@@ -2,6 +2,7 @@ streamlit
 # packaging
 pip>=9
 wordcloud
+nltk
 
 
 # data science
