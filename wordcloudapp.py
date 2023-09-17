@@ -10,7 +10,7 @@ from nltk.corpus import stopwords
 
 # get data directory (using getcwd() is needed to support running example in generated IPython notebook)
 d = path.dirname(__file__) if "__file__" in locals() else os.getcwd()
-text = st.text_area('Write your article','WELCOME')
+text = st.text_area('Write your article','HAPPY BIRTHDAY MANASA')
 # Read the whole text.
 #text = open(path.join(d, 'article.txt')).read()
 #stopwords = nltk.download('stopwords')
